@@ -12,8 +12,7 @@
     "src/VFS.js",
     "src/WebLocksMixin.js",
     "src/examples/*",
-    "dist/*",
-    "test/*"
+    "dist/*"
   ],
   "scripts": {
     "build-docs": "typedoc",
@@ -41,5 +40,8 @@
       "unplugged": true
     }
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "publishConfig": {
+    "access": "restricted"
+  }
 }
