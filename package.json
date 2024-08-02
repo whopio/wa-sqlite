@@ -1,5 +1,5 @@
 {
-  "name": "wa-sqlite",
+  "name": "@whop-core/wa-sqlite",
   "version": "1.0.1",
   "type": "module",
   "main": "src/sqlite-api.js",
