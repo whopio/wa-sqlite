@@ -1295,3 +1295,10 @@ declare module '@whop-core/wa-sqlite/src/examples/tag.js' {
    */
   export function tag(sqlite3: any, db: number): (arg0: TemplateStringsArray, ...args: any[]) => Promise<object[]>;
 }
+
+/** @ignore */
+declare module '@whop-core/wa-sqlite/src/examples/IDBBatchAtomicVFS.js' {
+  export const IDBBatchAtomicVFS: {
+    create: (name: string, module: unknown) => Promise<SQLiteVFS>;
+  };
+}
