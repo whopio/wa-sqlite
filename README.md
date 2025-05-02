@@ -1,4 +1,4 @@
-[![wa-sqlite CI](https://github.com/rhashimoto/wa-sqlite/actions/workflows/ci.yml/badge.svg?branch=breaking-changes)](https://github.com/rhashimoto/wa-sqlite/actions/workflows/ci.yml?branch=breaking-changes)
+[![wa-sqlite CI](https://github.com/rhashimoto/wa-sqlite/actions/workflows/ci.yml/badge.svg)](https://github.com/rhashimoto/wa-sqlite/actions/workflows/ci.yml)
 
 # wa-sqlite
 This is a WebAssembly build of SQLite with support for writing SQLite virtual filesystems completely in Javascript. This allows alternative browser storage options such as IndexedDB and Origin Private File System. Applications can opt to use either a synchronous or asynchronous (using Asyncify or JSPI) SQLite library build (an asynchronous build is required for asynchronous extensions).
@@ -19,7 +19,7 @@ If you do want to build yourself, here are the prerequisites:
 
 * Building on Debian Linux is known to work, compatibility with other platforms is unknown.
 * `yarn` - If you use a different package manager (e.g. `npm`) then file paths in the demo will need adjustment.
-* [Emscripten SDK](https://emscripten.org/docs/getting_started/downloads.html) 3.1.47+.
+* [Emscripten SDK](https://emscripten.org/docs/getting_started/downloads.html) 3.1.61+.
 * `curl`, `make`, `openssl`, `sed`, `tclsh`, `unzip`
 
 Here are the build steps:
